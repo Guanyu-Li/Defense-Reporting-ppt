@@ -104,18 +104,16 @@
     \section*{目录}
     	\begin{frame}
     		\frametitle{\secname}
-    		\tableofcontents[sections={<1-4>}]
-    		
+    		\tableofcontents	
     	\end{frame}
     	\AtBeginSubsection[]{
     		\begin{frame}<handout:0>
     			\frametitle{目录}
-    			\tableofcontents[currentsection,currentsubsection,sections={<1-4>}]
+    			\tableofcontents[currentsection,currentsubsection]
     		\end{frame}
     		\addtocounter{framenumber}{-1}  % 目录页不计算页码
     	}
-    
-    
+  
     \section{研究现状}
     \subsection{问题背景}
     \begin{frame}
